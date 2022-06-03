@@ -30,7 +30,7 @@ public class UserServiceTest {
 	@BeforeEach
 	public void init() {
 		userService = new UserServiceImplementation();
-		firstname = "Maslachah";
+		firstname = "Like";
 		lastname = "Awwaliyah";
 		email = "maslachahawwaliyah@gmail.com";
 		password = "rahasia";
@@ -43,10 +43,10 @@ public class UserServiceTest {
 	@Test
 	@Timeout(value = 500, unit = TimeUnit.MILLISECONDS)
 	public void testCreateUser_WhenDetailIsProvide_ReturnUserObject() {
-		
+
+//=================================================================
 		//Arrange
 		//kalau sudah dideklarasi di public class ga perlu lagi ditulis di sini
-//=================================================================
 //		UserService userService = new UserServiceImplementation();
 //		String firstname = "Like";
 //		String lastname = "Awwaliyah";
@@ -54,6 +54,7 @@ public class UserServiceTest {
 //		String password = "rahasia";
 //		String repeatPassword = "rahasia";
 //=================================================================
+		
 		
 		//Act
 		
